@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Navbar from '@/components/Navbar';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -13,7 +14,8 @@ export default function RootLayout({
 }): React.ReactElement {
   return (
     <html lang="en">
-      <body className="bg-white text-black">
+      <body className="bg-white text-black pt-16">
+        <Navbar />
         {children}
       </body>
     </html>
