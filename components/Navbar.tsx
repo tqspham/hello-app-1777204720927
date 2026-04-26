@@ -15,6 +15,7 @@ export default function Navbar(): React.ReactElement {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/services', label: 'Services' },
+    { href: '/sports', label: 'Sports' },
     { href: '/contact', label: 'Contact' },
   ];
 
