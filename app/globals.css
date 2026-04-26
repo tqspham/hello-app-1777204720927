@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+/* Navbar fixed positioning adjustments */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* pt-16 class handles the spacing for fixed navbar */
+  /* Ensure no content is hidden behind the fixed navbar */
+}
+
+/* Ensure focus-visible states are visible for keyboard navigation */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
